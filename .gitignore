@@ -1,0 +1,14 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+
+# Thư mục build
+dist/
+build/
+
+# Thư mục cấu hình
+.env
+

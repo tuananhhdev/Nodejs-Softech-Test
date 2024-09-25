@@ -1,0 +1,21 @@
+// get all students
+GET http://localhost:8080/api/v1/students
+
+
+// create new student
+###
+POST http://localhost:8080/api/v1/students
+Content-Type: application/json
+
+{
+"fullName": "nguyen tuyet nhung",
+"age": 25,
+"email": "nguyentuyetnhung@gmail.com",
+"mobile": "0435279397",
+"class": "batchRN36"
+}
+
+
+###
+// get student details by id
+GET http://localhost:8080/api/v1/students/66f35962abdd09c8af2f20b9
